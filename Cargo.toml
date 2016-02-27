@@ -1,0 +1,13 @@
+[package]
+authors = ["Jimmy Cuadra <jimmy@jimmycuadra.com>"]
+build = "build.rs"
+name = "serde_test"
+version = "0.1.0"
+
+[build-dependencies]
+serde_codegen = "0.7.0"
+syntex = "0.29.0"
+
+[dependencies]
+serde = "0.7.0"
+serde_json = "0.7.0"
